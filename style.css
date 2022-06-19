@@ -36,7 +36,7 @@ p#paragraph-1 {
     text-align: center;
     position: fixed;
     left: 20%;
-    bottom: 100px;
+    bottom: 70px;
 }
 
 ul.footer {
@@ -49,12 +49,13 @@ ul.footer {
     padding: 10px;
     grid-template-columns: auto auto auto;
     column-gap: 1%;
+    background-color: darkgray;
 }
 
 .grid-item {
+    height: 300px;
     padding: 20px;
     font-size: 30px;
-    background-color: darkgray;
 }
 
 #g1 {
@@ -67,4 +68,8 @@ ul.footer {
 
 #g3 {
     background-color: lightseagreen;
+}
+
+#data {
+    width: 30px;
 }
