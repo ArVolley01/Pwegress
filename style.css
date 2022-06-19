@@ -43,3 +43,28 @@ ul.footer {
     left: 0;
     bottom: 20px;
 }
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    column-gap: 1%;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    background-color: darkgray;
+}
+
+#g1 {
+    background-color: lightpink;
+}
+
+#g2 {
+    background-color: lightyellow;
+}
+
+#g3 {
+    background-color: lightseagreen;
+}
