@@ -17,10 +17,29 @@ p#paragraph-1 {
 
 #bottom-list {
     display: inline-flex;
-    margin-left: 10%;
+    background-color: beige;
+    margin-left: 0;
+    width: 100%;
 }
 
 #bottom-list > li {
     font-size: large;
-    padding-right: 1%;
+    padding-right: 10%;
+    width: 33%;
+}
+
+#bottom-title {
+    background-color: lightgrey;
+}
+
+*.footer {
+    text-align: center;
+    position: fixed;
+    left: 20%;
+    bottom: 100px;
+}
+
+ul.footer {
+    left: 0;
+    bottom: 20px;
 }
