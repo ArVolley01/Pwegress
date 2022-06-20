@@ -46,6 +46,7 @@ ul.footer {
 
 .grid-container {
     display: grid;
+    position: static;
     padding: 10px;
     grid-template-columns: auto auto auto;
     column-gap: 1%;
@@ -53,6 +54,7 @@ ul.footer {
 }
 
 .grid-item {
+    position: static;
     height: 300px;
     padding: 20px;
     font-size: 30px;
@@ -77,5 +79,6 @@ ul.footer {
 }
 
 #data {
-    width: 60px;
+    background-color: mediumpurple;
+    font-size: small;
 }

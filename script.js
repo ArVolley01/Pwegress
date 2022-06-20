@@ -5,9 +5,12 @@ document.querySelector("body").appendChild(h2);
 
 function addListeners () {
     function postMessage() {
-        message = document.getElementById("input");
+        const message = document.getElementById("input");
 
-        document.getElementById("data").append(message.value + "\n");
+        const line = document.createElement("p");
+        line.textContent = message.value;
+        
+        document.getElementById("g3").append(line);
     }
     
     const button = document.getElementById("submit button");
