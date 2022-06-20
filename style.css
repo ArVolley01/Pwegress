@@ -78,7 +78,7 @@ ul.footer {
     background-color: lightseagreen;
 }
 
-#data {
+#messages > p {
     background-color: mediumpurple;
-    font-size: small;
+    font-size: medium;
 }
