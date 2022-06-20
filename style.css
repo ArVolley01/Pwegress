@@ -62,8 +62,8 @@ ul.footer {
     background-color: rgb(215, 146, 156);
 }
 
-#g1 > form {
-    font-size: small;
+#g1 > div {
+    font-size: medium;
     display: block;
     margin-top: 10%;
 }
@@ -72,15 +72,10 @@ ul.footer {
     background-color: lightyellow;
 }
 
-#g2 > form > input[type="button"] {
-    height: 100px;
-    width: 100px;
-}
-
 #g3 {
     background-color: lightseagreen;
 }
 
 #data {
-    width: 30px;
+    width: 60px;
 }
